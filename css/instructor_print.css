@@ -1,0 +1,317 @@
+@import url(global.css);
+@import url(variable.css);
+
+
+
+@page {
+    margin: 0;
+
+}
+
+@media print {
+    .print__record {
+
+        font-size: 27px !important;
+        color: blue !important;
+        -webkit-print-color-adjust: exact !important;
+      
+    }
+
+    @page {
+        size: Portrait;
+
+    }
+
+
+}
+
+
+
+
+
+
+.system--logo img {
+    width: 100%;
+}
+
+.system--logo {
+    width: 100%;
+    max-width: 130px;
+}
+
+.content--wrapper {
+    position: relative;
+}
+
+.header--bg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.header--bg img {
+    width: 100%;
+}
+
+
+.system--logo {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.header--description {
+    text-align: center;
+}
+
+.header__title h1 {
+    font-family: 'Inter-ExtraBold';
+    font-size: 48px;
+    color: #ffff;
+}
+
+.header__title span {
+    color: #444444;
+}
+
+.header__school {
+    margin: auto;
+    max-width: 557px;
+}
+
+.header__school h3 {
+    font-size: 20px;
+}
+
+.header__school {
+    font-family: 'Inter-Bold';
+    color: rgb(4 129 31);
+    padding: 10px 0;
+}
+
+.header__school.school-address {
+    font-family: 'Inter-SemiBold';
+}
+
+
+.header__title {
+    padding-bottom: 10px;
+}
+
+body {
+    background: #EDEEEE;
+}
+
+.acad--wrapper {
+   
+    padding-top: 50px;
+}
+
+
+.inner--acad__semes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.acad__semes--wrapper {
+    padding: 20px;
+    background: linear-gradient(269.81deg, #52D5FF 13.29%, #3BC2A2 81.67%);
+    border-radius: 5px;
+    max-width: 623px;
+    margin: auto;
+
+}
+
+.acad--name h5,
+.semester--name h5 {
+    font-family: 'Inter-Bold';
+    font-size: 18px;
+    color: #2E2E2E;
+
+}
+
+
+
+.other--info {
+    max-width: 623px;
+    margin: auto;
+}
+
+.other--info>* {
+    font-family: 'Inter-Bold';
+    color: #2E2E2E;
+
+}
+
+.other--info h5 {
+    font-size: 17px;
+}
+
+
+.list__students--wrapper {
+ 
+
+}
+
+table,
+.signature--wrapper {
+    width: 100%;
+    max-width: 755px;
+    margin: auto;
+}
+
+.info--heading th {
+    color: #2E2E2E;
+    font-family: 'Inter-Bold';
+    font-size: 18px;
+}
+
+.main--status td,
+.signature--name h5 {
+    font-family: 'Inter-Bold';
+    color: #292632;
+    font-size: 15px;
+}
+
+.show__grades h5 {
+    font-size: 15px;
+}
+
+
+
+tr.spacer {
+    height: 17px;
+}
+
+.main--status td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+
+.pass__d {
+    color: #26C165;
+}
+
+.backslash__d {
+    color: #001240;
+}
+
+.fail__D {
+    color: #FE5858;
+}
+
+
+
+td.td_names {
+    text-transform: uppercase !important;
+}
+
+th.th_lname {
+    width: 143px;
+}
+
+th.th_fname {
+    width: 143px;
+}
+
+th.th_mname {
+    width: 113px;
+}
+
+td.fail {
+    color: #FE5858;
+}
+
+td.none--g {
+    color: #6e8ffc;
+}
+
+td.pass {
+    color: #26C165;
+}
+
+.print a {
+    padding: 10px 20px;
+    border: 2px solid #2C3E4C;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #2C3E4C;
+    font-family: 'Inter-Bold';
+   
+}
+
+.print--btn-wrap {
+    display: flex;
+    justify-content: end;
+    margin: 12px 0;
+}
+
+.container {
+    max-width: 869px !important;
+}
+
+
+
+.content--wrapper {
+    display: flex;
+   
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.content--wrapper.list__content {
+    display: block;
+    padding-top: 50px;
+}
+
+.header__title {
+    text-align: center;
+}
+
+.other--info {
+    display: flex;
+}
+
+.academic__term {
+    padding-right: 10px;
+}
+
+.term__info:not(:last-child) {
+    padding-bottom: 10px;
+}
+
+.signature--name {
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.signature--name::before {
+    content: "";
+    background: #000;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+}
+
+.signature--wrapper{
+    padding: 40px 0;
+}
+.print__record{
+    background: #fff;
+}
+
+.logos--wrapper img{
+    width: 100%;
+}
+.logos--wrapper{
+    max-width: 700px;
+}

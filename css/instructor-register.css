@@ -1,0 +1,103 @@
+@import url(global.css);
+@import url(variable.css);
+
+.container {
+    padding: 0;
+    max-width: 1280px !important;
+}
+
+.register-text h3 {
+    color: #26C165;
+    font-family: 'Inter-Bold';
+    font-size: 30px;
+}
+
+.register-info {
+    color: #2B4355;
+    font-family: 'Inter-SemiBold';
+    font-size: 13px;
+}
+
+.register--form .field--name {
+    color: #2B4355;
+    font-family: 'Inter-SemiBold';
+    font-size: 13px;
+}
+
+.instructor-register--bg {
+    background: #26C165;
+    height: 100%;
+    width: 100%;
+}
+
+.register-wrapper {
+    padding: 25px;
+}
+
+.register--form input {
+    border: 1px solid #2B4355;
+    font-size: 18px;
+    outline: unset;
+    width: 254px;
+}
+
+.margin-r-62 {
+    margin-right: 62px;
+}
+
+.register--form .faculty--ID input {
+    font-size: 12px;
+    width: 100px;
+}
+
+.form-wrap__inner.faculty--ID {
+    width: 100%;
+}
+
+.form-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-wrap__inner.Username{
+    margin-right: 62px;
+}
+.form-wrap__inner{
+    padding-top: 30px;
+}
+
+.register-btn h5{
+    font-size: 15px;
+    font-family: 'Inter-SemiBold';
+    color: #fff;
+}
+.register-btn{
+    background: #009C3F;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: unset;
+
+}
+.has--account{
+    color: #2B4355;
+    font-size: 15px;
+    font-family: 'Inter-SemiBold';
+}
+.has--account a{
+    color: #26C165;
+}
+
+.has--account a:hover{
+    color: #0e9946;
+}
+.has--account{
+    margin-top: auto;
+}
+.register-wrapper{
+    display: flex;
+}
+.has--account{
+    padding-left: 20px;
+}
+.has--account span{
+    padding-left: 3px;
+}

@@ -1,0 +1,781 @@
+@import url(../css/global.css);
+@import url(../css/variable.css);
+
+
+:root{
+    --text-primary--pst: #f8c702;
+    --text-secondary--pst: #444444;
+}
+
+.text--color{
+    color: var(--text-secondary--pst);
+}
+@media print {
+    .inner-container {
+
+        font-size: 27px !important;
+        color: blue !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+
+    }
+
+    @page {
+        size: portrait;
+
+    }
+
+    html,
+    body {
+        height: 99% !important;
+    }
+}
+
+.main-record {
+
+    display: flex;
+    align-items: center;
+}
+
+.view__status {
+    display: flex;
+    background: #fff;
+    justify-content: end;
+}
+
+body {
+    background: #EDEEEE !important;
+}
+
+.inner-container {
+    background: #fff;
+}
+
+.logo {
+    position: absolute;
+    right: -1%;
+}
+
+.school-logo {
+    position: relative;
+}
+
+.col-md-8,
+.col-md-4 {
+    padding: 0 !important;
+}
+
+.logo-img {
+    z-index: 1;
+}
+
+
+.title__main h2 {
+    font-family: 'Inter-ExtraBold';
+    font-size: 50px;
+    color: var(--text-secondary--pst);
+}
+
+.title__main span {
+    color: var(--text-primary--pst);
+}
+
+.header--title {
+    text-align: center;
+}
+
+.title__main {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.title__school h3 {
+    font-family: 'Inter-Bold';
+    font-size: 15px;
+    color: #0B1845;
+    line-height: 1.4;
+}
+
+.title__school {
+    padding-top: 30px;
+}
+
+.title__address {
+    padding-top: 15px;
+}
+
+.title__address h4 {
+    font-family: 'Inter-SemiBold';
+    font-size: 15px;
+    color: rgba(11, 24, 69, 0.73);
+    ;
+}
+
+.student--info,
+.main--status,
+.copyright-wrap {
+    position: relative;
+
+}
+
+.main__bg img {
+    width: 100%;
+    height: 100%;
+}
+
+.main__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.align-cn {
+    text-align: center;
+}
+
+.student__name h5,
+.student-under__name h5 {
+    font-family: 'Inter-Bold';
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.student--info {
+    padding-top: 75px;
+}
+
+.student__name {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.student__name::after,
+.student--stats::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background: #2C3E4C;
+    bottom: 0;
+}
+
+.student-under__name {
+    padding-top: 5px;
+}
+
+.student--stats {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.student__heading {
+    font-family: 'Inter-Bold';
+}
+
+.student__heading h4 {
+    font-size: 20px;
+}
+
+.student__content {
+    font-family: 'Inter-Bold';
+}
+
+.student__content h5 {
+    font-size: 20px;
+}
+
+.student--stats {
+    padding: 30px 0;
+    ;
+}
+
+.copyright-wrap,
+.copyright__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.copright__received {
+    color: rgba(255, 255, 255, 0.38);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.copright__received h5 {
+    font-size: 10px;
+}
+
+.copright__received span {
+    display: block;
+}
+
+.copyright-wrap {
+    padding-top: 20px;
+}
+
+.header-school--info {
+    margin-bottom: 60px;
+}
+
+.copright__received {
+    padding: 20px 0;
+}
+
+.logo-img {
+    right: 2%;
+    top: 4%;
+}
+
+.header-school--info {
+    position: relative;
+}
+
+
+table tr.main--status {
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+table tr.main--status td {
+
+    font-family: 'Inter-ExtraBold';
+    font-size: 13px;
+    color: #292632;
+
+}
+
+.main--status.display {
+    height: 288px;
+}
+
+table tr.main--status td,
+table tr th {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+table tr th:first-child {
+    text-align: left;
+}
+
+table tr.main--status td:first-child {
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+    text-align: left;
+}
+
+table tr.main--status td:last-child {
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+}
+
+table tr th {
+    font-family: 'Inter-ExtraBold';
+    color: var(--text-secondary--pst);
+    font-size: 15px;
+}
+.info--heading{
+    background: var(--text-primary--pst);
+}
+.container.student--info {
+    max-width: 1147px !important;
+}
+
+table {
+    width: 100%;
+}
+
+.selection--wrapper {
+    padding-top: 90px;
+}
+
+.show--grades .show__grades h5 {
+    font-family: 'Inter-Bold';
+    color: #fff;
+    font-size: 15px;
+}
+
+.show--grades .show__grades {
+    width: 58px;
+    height: 27px;
+    background: var(--text-primary--pst);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.show--grades .show__grades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show--grades {
+    display: flex;
+    justify-content: space-around;
+}
+
+.show__grades-status {
+    display: flex;
+}
+
+
+
+.pass h5 {
+    color: #00923A;
+    font-size: 15px;
+}
+
+.pass span {
+    font-size: 15px;
+    font-family: 'Inter-Bold';
+    background: #9EFFC6;
+    padding: 2px 6px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.pass.fail span {
+    background: #FF9E9E;
+}
+
+.pass.fail h5 {
+    color: #FE5858;
+
+}
+
+.course__code {
+    width: 120px;
+
+}
+
+.selection__dropdown.academic {
+    overflow: scroll;
+    max-height: 154px;
+}
+
+.selection__dropdown.academic::-webkit-scrollbar-thumb {
+    width: 10px;
+    background: red;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.selection__dropdown.academic::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+.selection__dropdown.academic::-webkit-scrollbar-thumb {
+    background: #c7c7c7;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+.selection__dropdown.academic::-webkit-scrollbar-corner {
+    background: none;
+
+}
+
+.selection__dropdown.academic {
+    display: none;
+}
+
+.selection__dropdown.semester {
+    display: none;
+}
+
+.selection__dropdown.academic.active {
+    display: block;
+}
+
+.selection__dropdown.semester.active {
+    display: block;
+}
+
+.student--view-grades {
+    padding-top: 160px;
+}
+
+.selection-status {
+    position: relative;
+}
+
+.selection__dropdown {
+    position: absolute;
+    width: 100%;
+}
+
+tr.spacer {
+    height: 5px;
+}
+
+.show__grades.fail,
+.inner__grades-status.fail {
+    background: #FE5858 !important;
+
+}
+
+
+.main--status .instructor_name {
+    text-transform: uppercase;
+}
+
+.status__bg {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.status__img img {
+    width: 100%;
+}
+
+.status__img {
+    max-width: 119px;
+    position: absolute;
+    z-index: 1;
+    top: -14%;
+}
+
+.status__bg {
+    display: flex;
+    position: relative;
+    background: #9ED5DF !important;
+}
+
+.message_status {
+    padding-left: 98px !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.message_status h5 {
+    font-size: 16px;
+    font-family: 'Inter-ExtraBold';
+    color: #4A4949;
+    line-height: 1.4;
+}
+
+.message_status {
+    max-width: 327px;
+    margin: 0 30px;
+}
+
+.message_status {
+    position: relative;
+    z-index: 1;
+}
+
+.message_status .span-block {
+    display: block;
+}
+
+.message_status span.red {
+    color: #FF4D4D;
+}
+
+.message_status span.blue {
+    color: #2972AA;
+}
+
+.view__status {
+    margin: 24px 0;
+}
+
+.photocopy {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.photocopy h5 {
+    color: rgba(0, 0, 0, 0.13);
+    transform: rotate(-30deg);
+    font-family: 'Inter-ExtraBold';
+    font-size: 24px;
+}
+
+.inner__phocopy {
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.view--grades {
+    padding: 0 5px;
+}
+
+.photocopy {
+    margin-left: 10px;
+}
+
+.dots {
+    background: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.message_dots {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.status-record {
+    position: relative;
+}
+
+.status-record::after {
+    content: "";
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    background: linear-gradient(213.7deg, #0DA263 7.56%, #007484 65.68%);
+    top: 0;
+}
+
+.print a {
+    padding: 10px 20px;
+    border: 2px solid #2C3E4C;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #2C3E4C;
+    font-family: 'Inter-Bold';
+    background-color: #fff;
+}
+
+
+.container {
+    position: relative;
+}
+
+.print--pages {
+    display: flex;
+}
+
+.container {
+    padding: 0 !important;
+
+}
+
+.print--btn-wrap {
+    display: flex;
+    justify-content: end;
+    margin: 12px 0;
+}
+
+.row,
+.col-md-12,
+.print--pages {
+    height: 100%;
+}
+
+.status-record {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner-container {
+    height: 100vh;
+}
+
+@page {
+    margin: 0;
+}
+
+.show--grades {
+    position: relative;
+    overflow: hidden;
+}
+
+.img--watermark {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.show__grades h5 {
+    position: relative;
+    z-index: 1;
+}
+
+.img--watermark img {
+    width: 100%;
+    position: absolute;
+
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.view__grades {
+    position: relative;
+
+}
+
+.big--watermark {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform: translate(0, -50%);
+}
+
+.big--watermark img {
+    width: 100%;
+    opacity: 0.4;
+}
+
+.instructor--signature {
+    position: relative;
+    text-align: center;
+    padding-top: 34px;
+}
+
+.instructor--signature .signature--here h5 {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Inter-Bold';
+}
+
+.instructor--signature .signature--here {
+    padding-top: 5px;
+    margin: auto;
+    max-width: 200px;
+    position: relative;
+}
+
+.instructor--signature .signature--here::before {
+    content: "";
+    height: 2px;
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content--wrapper {
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 20px;
+}
+
+.header--description {
+    text-align: center;
+}
+
+.header__school {
+    font-family: 'Inter-Bold';
+    color: rgb(4 129 31);
+    padding: 10px 0;
+}
+
+.header__school.school-address {
+    font-family: 'Inter-SemiBold';
+}
+
+.header__school h3 {
+    font-size: 20px;
+}
+
+.container {
+    max-width: 800px !important;
+}
+
+.header__school {
+    margin: auto;
+    max-width: 557px;
+}
+
+.content--wrapper.grades--wrap {
+    display: block;
+}
+
+.print__record {
+    background: #fff;
+}
+
+.signature--wrapper {
+    padding: 40px 0;
+}
+
+.signature--name {
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.signature--name::before {
+    content: "";
+    background: #000;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+}
+
+.signature--name h5 {
+    font-family: 'Inter-Bold';
+    color: #292632;
+    font-size: 15px;
+}
+
+.print--pages{
+    overflow: hidden;
+    position: relative;
+}
+
+.content--wrapper img{
+    width: 100%;
+}
+.content--wrapper {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.big--watermark{
+    opacity: 0.4;
+}

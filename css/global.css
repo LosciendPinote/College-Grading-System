@@ -1,0 +1,74 @@
+body {
+    background: #fff;
+    font-family: 'Inter-Regular';
+    color: #000;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    margin: unset;
+}
+
+ul {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.col-md-3.instructor--nav {
+    padding-left: 0 !important;
+}
+
+.col-md-3.list--student {
+    padding-right: 0 !important;
+}
+
+.col-md-6,
+.col-md-2 {
+    padding: 0 !important;
+}
+
+img {
+    -webkit-user-drag: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

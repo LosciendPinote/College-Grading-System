@@ -1,0 +1,56 @@
+@media (max-width: 600px) {
+
+    .mobile-none{
+        display: none !important;
+    }
+.student-info{
+    justify-content: start;
+}
+.logout{
+    margin-left: auto;
+}
+
+.selection--wrapper {
+    padding-top: 127px;
+}
+.selection__view.academic input{
+    width: 100%;
+    max-width: 147px;
+}
+.selection__view.semester input{
+    width: 100%;
+    max-width: 147px;
+}
+.info--heading th{
+font-size: 10px;
+}
+
+table tr.main--status td >*,
+table tr.main--status td{
+    font-size: 10px;
+}
+.inner__grades-status{
+    display: none;
+}
+.show__grades{
+    height: 32px;
+}
+.show__grades h5{
+    font-size: 10px !important;
+}
+.logout{
+    max-width: 20px;
+}
+.logout img{
+    width: 100%;
+}
+.selection__dropdown .select__item:not(:first-child){
+    margin-top: 4px;
+}
+.selection__dropdown.academic {
+    max-height: 126px;
+}
+.student--view-grades {
+    padding-top: 139px;
+}
+}

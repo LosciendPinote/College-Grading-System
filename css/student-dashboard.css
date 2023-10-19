@@ -1,0 +1,494 @@
+@import url(global.css);
+@import url(variable.css);
+
+
+:root{
+    --primary--bg--st:#f8c702;
+    --secondary--bg--st:#444444 ;
+    --text--white--st: #fff;
+    --text-primary--st: #f8c702;
+    --text-secondary--st: #444444;
+    --border-shadow--st: #fff;
+}
+body {
+    background: var(--secondary--bg--st);
+}
+.student-info,
+.logo--info,
+.student-navigation ul {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background: var(--primary--bg--st);
+}
+.header--text--color{
+    color: var(--text-secondary--st);
+}
+.inner-col {
+    padding: 5px 0;
+    height: 100%;
+    display: flex;
+}
+
+.student-navigation {
+    display: flex;
+    align-items: center;
+}
+
+header>* {
+    font-family: 'Inter-SemiBold';
+    color: #2B2B2B;
+}
+
+.logo__name h4 {
+    font-family: 'Inter-Bold';
+    font-size: 17px;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+.student-info {
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.logout {
+    margin-left: 60px;
+}
+
+.logo__name {
+    margin-left: 20px;
+}
+
+.student-navigation a {
+    font-family: 'Inter-SemiBold';
+    color: #242424;
+    font-size: 15px;
+}
+
+.student-navigation li:not(:first-child) {
+    margin-left: 75px;
+}
+
+.logout {
+    cursor: pointer;
+}
+
+.status--wrapper {
+    justify-content: space-around;
+}
+
+.status--wrapper {
+    display: flex;
+    background: #E0F9F5;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.status-text {
+    color: #84A2E0;
+}
+
+:is(.acad-year--text, .semister--text) h5 {
+    color: #1AD7B2;
+}
+
+:is(.acad-year--text, .semister--text) span {
+    padding-left: 10px;
+    color: #11224D;
+}
+
+.status--wrapper {
+    max-width: 700px;
+    margin: auto;
+}
+
+.status--wrapper>* {
+    font-family: 'Inter-SemiBold';
+}
+
+.selection__view input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 5px 46px -13px rgba(0, 0, 0, 0.1);
+    border: unset;
+    outline: unset;
+    font-family: 'Inter-SemiBold';
+    font-size: 15px;
+}
+
+.selection__dropdown .select__item h5 {
+    font-family: 'Inter-Bold';
+    font-size: 15px;
+}
+
+.selection__dropdown .select__item {
+    text-align: center;
+    padding: 5px 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+
+.selection-status {
+    display: inline-block;
+}
+
+.selection__dropdown {
+    box-shadow: 0px 5px 46px -13px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: #fff;
+}
+
+.selection__dropdown .select__item:not(:first-child) {
+    margin-top: 15px;
+}
+
+.selection__items {
+    padding: 20px 0;
+}
+
+.selection__dropdown .select__item:hover {
+    background: var(--primary--bg--st);
+}
+
+.selection__view input {
+    cursor: pointer;
+}
+
+.selection--wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
+    max-width: 830px;
+}
+
+.selection__view {
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.selection__arrow {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.selection__dropdown {
+    margin-top: 5px;
+}
+
+table tr.main--status {
+    background: #fff;
+    box-shadow: 0px 5px 46px -13px rgba(0, 0, 0, 0.1);
+
+
+}
+
+table tr.main--status td {
+
+    font-family: 'Inter-Bold';
+    font-size: 15px;
+    color: var(--text-secondary--st);
+
+}
+
+.main--status.display {
+    height: 288px;
+}
+
+table tr.main--status td,
+table tr th {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+table tr th:first-child {
+    text-align: left;
+}
+
+table tr.main--status td:first-child {
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+    text-align: left;
+}
+
+table tr.main--status td:last-child {
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+}
+
+table tr th {
+    font-family: 'Inter-Regular';
+    color: var(--text--white--st);
+    font-size: 15px;
+}
+
+.container.student--info {
+    max-width: 1147px !important;
+}
+
+table {
+    width: 100%;
+}
+
+.selection--wrapper {
+    padding-top: 90px;
+}
+
+.show--grades .show__grades h5 {
+    font-family: 'Inter-Bold';
+    color: #fff;
+    font-size: 15px;
+}
+
+.show--grades .show__grades {
+    width: 56px;
+    background: #03D05A;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.show--grades .show__grades.example {
+    width: 40px;
+    background: #C0CEFF;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.show--grades .show__grades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show--grades {
+    display: flex;
+    justify-content: space-around;
+}
+
+.show__grades-status {
+    display: flex;
+}
+
+.inner__grades-status {
+    margin: 5px 0;
+    padding: 10px;
+    background: #03D05A;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+
+.inner__grades-status.example {
+    margin: 5px 0;
+    padding: 10px;
+    background: #C0CEFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+
+.pass h5 {
+    color: #00923A;
+    font-size: 15px;
+}
+
+.pass span {
+    font-size: 15px;
+    font-family: 'Inter-Bold';
+    background: #9EFFC6;
+    padding: 2px 6px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.pass.fail span {
+    background: #FF9E9E;
+}
+
+.pass.fail h5 {
+    color: #FE5858;
+
+}
+
+.pass.example span {
+    background: #C0CEFF;
+}
+
+.pass.example h5 {
+    color: #5C72BE;
+
+}
+
+
+
+.selection__dropdown.academic {
+    overflow: scroll;
+    max-height: 154px;
+}
+
+.selection__dropdown.academic::-webkit-scrollbar-thumb {
+    width: 10px;
+    background: red;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.selection__dropdown.academic::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+.selection__dropdown.academic::-webkit-scrollbar-thumb {
+    background: #c7c7c7;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+.selection__dropdown.academic::-webkit-scrollbar-corner {
+    background: none;
+
+}
+
+.selection__dropdown.academic {
+    display: none;
+}
+
+.selection__dropdown.semester {
+    display: none;
+}
+
+.selection__dropdown.academic.active {
+    display: block;
+}
+
+.selection__dropdown.semester.active {
+    display: block;
+}
+
+.student--view-grades {
+    padding-top: 160px;
+}
+
+.selection-status {
+    position: relative;
+}
+
+.selection__dropdown {
+    position: absolute;
+    width: 100%;
+}
+
+tr.spacer {
+    height: 5px;
+}
+
+.show__grades.fail,
+.inner__grades-status.fail {
+    background: #FE5858;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+html html::-webkit-scrollbar-thumb {
+    width: 10px;
+    background: red;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+html::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #c7c7c7;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+html::-webkit-scrollbar-corner {
+    background: none;
+
+}
+
+.main--status .instructor_name {
+    text-transform: uppercase;
+}
+
+.student__name--dashboard h5 {
+    font-family: 'Inter-Bold';
+    font-size: 17px;
+
+}
+
+.logo__img{
+    max-width: 56px;
+}
+.logo__img img{
+    width: 100%;
+}

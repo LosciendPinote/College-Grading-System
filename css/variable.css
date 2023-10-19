@@ -1,0 +1,49 @@
+/* Font */
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(fonts/Inter-Bold.ttf)format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url(fonts/Inter-SemiBold.ttf)format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(fonts/Inter-Regular.ttf)format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter-ExtraBold';
+    src: url(fonts/Inter-ExtraBold.ttf)format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(fonts/Roboto-Bold.ttf)format('woff2');
+}
+
+@font-face {
+    font-family: 'Interstate-Bold';
+    src: url(fonts/Interstate-bold.ttf)format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(fonts/Roboto-Medium.ttf)format('woff2');
+}
+
+@font-face {
+    font-family: 'Interstate-Regular';
+    src: url(fonts/Interstate-regular.ttf)format('woff2');
+}
+
+/* display */
+.dp-flex {
+    display: flex;
+}
+
+.pos-relative {
+    position: relative;
+}

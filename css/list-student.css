@@ -1,0 +1,18 @@
+@import url(register.css);
+
+.table-head {
+    background: #86ff9a !important;
+}
+
+.edit-icon {
+    color: #0042f7;
+}
+
+.edit-icon.delete {
+    color: #ff1b54;
+    font-size: 20px;
+}
+
+.edit-icon.delete:hover {
+    color: #e20139;
+}

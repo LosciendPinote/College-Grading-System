@@ -1,0 +1,269 @@
+@import url(bootstrap.css);
+@import url(global.css);
+@import url(variable.css);
+
+
+.register-container {
+    max-width: 1280px;
+    height: 100vh;
+    margin: auto;
+}
+
+.logo-name h3 {
+    /* 30px */
+    font-size: 1.875rem;
+    font-family: 'Inter-Bold';
+    color: #44C4A1;
+
+}
+
+.grading-logo--wrap.login {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form--outer__wrap {
+    max-width: 277px;
+    margin: auto;
+}
+
+.form--wrap {
+    margin: auto;
+    padding: 30px 0;
+}
+
+.form__inner {
+    width: 100%;
+}
+
+.form--wrap.dp-flex {
+    justify-content: center;
+}
+
+.login-form input {
+    border: 1px solid #5E9C6B;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    width: 100%;
+    text-align: center;
+}
+
+.login-form input::-webkit-input-placeholder {
+    font-family: 'Inter-Regular';
+    font-size: 23px;
+    color: #5E9C6B;
+    text-align: center;
+}
+
+.login-form input::-moz-placeholder {
+    font-family: 'Inter-Regular';
+    font-size: 23px;
+    color: #5E9C6B;
+    text-align: center;
+}
+
+.login-form input:-ms-input-placeholder {
+    font-family: 'Inter-Regular';
+    font-size: 23px;
+    color: #5E9C6B;
+    text-align: center;
+}
+
+.login-form input::-ms-input-placeholder {
+    font-family: 'Inter-Regular';
+    font-size: 23px;
+    color: #5E9C6B;
+    text-align: center;
+}
+
+.login-form input::placeholder {
+    font-family: 'Inter-Regular';
+    font-size: 23px;
+    color: #5E9C6B;
+    text-align: center;
+}
+
+.grading-logo--wrap {
+    text-align: center;
+}
+
+.username,
+.password {
+    position: relative;
+}
+
+.login-form .user--icon {
+    position: absolute;
+    left: 0;
+    font-size: 23px;
+    color: #00743C;
+}
+
+.default-btn input {
+    border-radius: 20px;
+    border: 1px solid #02740D;
+    background: linear-gradient(269.62deg, #06C25D 0.16%, #04761D 99.67%);
+    border: 1px solid #02740D;
+    font-family: 'Inter-Bold';
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.3;
+}
+
+.register-info .click-to-register {
+    font-family: 'Inter-Regular';
+    font-size: 16px;
+    color: #000;
+}
+
+.register-info .click-to-register span {
+    color: #00743C;
+}
+
+.form__inner {
+    text-align: center;
+}
+
+.grading-logo--wrap.has__margin {
+    margin-bottom: 80px;
+}
+
+.logo-name.has__padding {
+    padding-top: 20px;
+}
+
+.login-form.has__margin {
+    margin-bottom: 20px;
+}
+
+.input-user {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.input-user input,
+select,
+textarea {
+    color: green;
+    font-family: 'Inter-Regular';
+    font-size: 20px;
+}
+
+.register-page {
+    overflow: hidden;
+}
+
+.user-selection--wrap {
+    position: relative;
+    height: 100vh;
+}
+
+.user-selection__inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.user-selection__bg {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 0;
+
+}
+
+.form--outer__wrap {
+    display: flex;
+    margin: auto;
+    height: 100%;
+}
+
+.selection-bg__inner {
+    position: relative;
+
+}
+
+.login--click-me h3 {
+    font-family: 'Inter-Bold';
+    color: #fff;
+    font-size: 40px;
+}
+
+.login-logo--img img {
+    width: 100%;
+}
+
+.login-logo--img {
+    max-width: 75px;
+    margin: auto;
+}
+
+.login-slide {
+    position: absolute;
+    top: 55%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.user-selection__bg {
+    overflow: hidden;
+}
+
+.login-slide.Register--slide {
+    transform: translate(-287%, 166%) rotate(105deg);
+}
+
+.user-selection__bg {
+    border-radius: 50%;
+}
+
+.selection-upper__bg {
+    position: absolute;
+    top: -23%;
+    right: -4%;
+}
+
+.selection-lower__bg {
+    position: absolute;
+    top: 27%;
+    right: -4%;
+}
+
+.selection-lower__bg img,
+.selection-lower__bg img {
+    width: 100%;
+}
+
+.grading-logo.register {
+    width: 100px;
+    margin: auto;
+}
+
+.grading-logo.register img {
+    width: 100%;
+
+}
+
+.logo-name.register h3 {
+    font-size: 20px;
+}
+
+.grading-logo--wrap.register.has__margin {
+    margin-bottom: 30px;
+}
+
+.selection-bg__inner {
+    transition: 1s;
+}
+
+.selection-bg__inner.active {
+    transform: rotate(255deg);
+}
+
+.selection-lower__bg {
+    z-index: 1;
+}

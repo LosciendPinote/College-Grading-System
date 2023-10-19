@@ -1,0 +1,186 @@
+@media (max-width: 600px) {
+
+
+
+    .inner-col.instructor {
+
+
+
+        display: none !important;
+
+
+
+    }
+
+
+
+
+
+
+
+    .auth-text,
+
+
+
+    .cta-auth {
+
+
+
+        text-align: center;
+
+
+
+    }
+
+    .pos-relative {
+
+
+
+        z-index: 0;
+
+    }
+
+    .logo {
+
+        visibility: hidden;
+
+    }
+
+    .cta-auth.login-btn {
+
+        transform: translateX(0px);
+
+        -webkit-transform: translateX(0px);
+
+        -moz-transform: translateX(0px);
+
+        -ms-transform: translateX(0px);
+
+        -o-transform: translateX(0px);
+
+
+
+    }
+
+    .auth-text {
+
+        transform: translateX(0px);
+
+        -webkit-transform: translateX(0px);
+
+        -moz-transform: translateX(0px);
+
+        -ms-transform: translateX(0px);
+
+        -o-transform: translateX(0px);
+
+    }
+
+
+
+    .cta-auth {
+
+
+
+        transform: translateX(157px);
+
+
+
+        transition: 0.5s ease;
+
+
+
+        -webkit-transform: translateX(157px);
+
+
+
+        -moz-transform: translateX(157px);
+
+
+
+        -ms-transform: translateX(157px);
+
+
+
+        -o-transform: translateX(157px);
+
+
+
+    }
+
+
+
+    .bacgkround-bg {
+
+
+
+        display: none;
+
+
+
+    }
+
+
+
+    .container.inner-container {
+
+
+
+        background: #3A91E1;
+
+
+
+    }
+
+
+
+    .inner-col.student {
+
+
+
+        justify-content: center;
+
+
+
+        padding-left: unset;
+
+
+
+    }
+
+
+
+    .logo {
+
+
+
+        max-width: 114px;
+
+
+
+        margin-left: auto;
+
+
+
+    }
+
+
+
+    .mobile-none {
+
+        display: none !important;
+
+    }
+
+
+
+    .authentication-bg {
+
+        height: 92px;
+
+    }
+
+  
+
+
+}
